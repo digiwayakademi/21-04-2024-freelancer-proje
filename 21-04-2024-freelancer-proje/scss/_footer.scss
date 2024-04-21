@@ -1,0 +1,18 @@
+#main-footer{
+    background-color: $dark-color;
+    color: #fff;
+    height: 5rem;
+
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    .social{
+        i{
+            margin-left: 15px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    box-shadow: rgba(149,154,145,.5) 0px 8px 24px;
+
+    .item{
+        &__text{
+            background-color: $light-color;
+            padding: 1.5rem;
+        }
+
+        &__image{
+            img:hover{
+                scale: 1.05;
+            }
+
+            a{
+                background-color: $light-color;
+            }
+        }
+    }
+}
